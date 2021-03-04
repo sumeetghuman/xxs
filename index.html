@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Ohmyfood
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="logo" id=top>
+        <img src="images/logo/ohmyfood.png" alt="ohmyfood-logo">
+        </div>
+        <div class="location">
+            <i class="fa fa-map-marker"style="font-size:20px"></i>Paris, Balleville
+        </div>
+        <div class="discover">
+            <h2>Book the menu you like</h2>
+            <span>Discover top-of-art restaurants we<br>picked for you</span>
+            <br>
+            <button onclick="document.location='#restaurants'">Explore Our restaurants</button>
+        </div>
+        <div class="section1">
+            <h2>How it works</h2>
+            <div class="flex-container">
+            <div>
+            <b>1</b><i class="fa fa-mobile-phone" style="font-size:24px"></i> <strong>Choose a restaurant</strong>
+             </div>
+            <div>
+            <b>2</b><i class="fa fa-list-ul" aria-hidden="true"></i>
+             <strong>Create your menu</strong></div>
+            <div>
+            <b>3</b><i style="font-size:24px" class="fa">&#xf0f4;</i>
+             <strong>Go enjoy it at the restaurant</strong></div>  
+            </div>
+        </div>
+        <div class="section2" id="restaurants">
+            <h2>Restaurants</h2>
+            <div class="flex-container2">
+                <div class="restaurant1">
+                <p1>New</p1>
+                    <a href="restaurants1.html">
+                    <p ><strong>The Full Palette</strong><br><span>New York</span>
+                        <img src="file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png" id="test1" onclick ="change1();"/style="font-size:24px">
+                   </p></a>
+                </div>
+                <div class="restaurant2">
+                    <p1>New</p1>
+                     <a href="restaurant2.html">
+                     <p><strong>The Enchanted Plate</strong><br><span>New York</span><img src="file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png" id="test2" onclick ="change2();"/style="font-size:24px"></p>
+                    </a>
+                   
+                </div>
+                 <div class="restaurant3">
+                     <a href="restaurant3.html">
+                     <p><strong>Bastille</strong><br><span>New York</span>
+                         <img src="file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png" id="test3" onclick ="change3();"/style="font-size:24px"></p>  
+                          </a> 
+                 </div>
+                    
+                 <div class="restaurant4">
+                     <a href="restaurant4.html">
+                     <p><strong>Le Gourmand</strong><br><span>New York</span><img src="file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png" id="test4" onclick ="change4();"/style="font-size:24px"></p> 
+                     </a>  
+                </div>   
+                    
+            </div>
+        </div>
+        <footer>
+            <img src="images/logo/whitelogo.png">
+            <p><i class="material-icons" style="font-size:18px">&#xe56c;</i> Suggest a restaurant</p>
+            <p><i class="fa fa-handshake-o" style="font-size:18px"></i>
+            Become a partner</p>
+            <p>Legal</p>
+            <p>Contact</p>
+        </footer>
+    </body>
+     <script>
+    function change1() {
+   var img1 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/like.png",
+       img2 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png";
+   var imgElement = document.getElementById('test1');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+         function change2() {
+   var img1 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/like.png",
+       img2 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png";
+   var imgElement = document.getElementById('test2');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+         function change3() {
+   var img1 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/like.png",
+       img2 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png";
+   var imgElement = document.getElementById('test3');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+         function change4() {
+   var img1 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/like.png",
+       img2 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/images/logo/unlike.png";
+   var imgElement = document.getElementById('test4');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+</script>
+</html>

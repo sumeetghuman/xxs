@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+           The Full Platte-menu
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link rel="stylesheet" href="restaurant1.css">
+        
+    </head>
+    <body>
+        <div class="logo" >
+            <a href="index.html"><i class="fa fa-arrow-left" style="font-size:24px"></i></a>
+        <img src="images/logo/ohmyfood.png" alt="ohmyfood-logo">
+        </div>
+        <div class="pic">
+        </div>
+        <div class="section">
+            <p><span2>The Full Platte</span2>
+                <img src="file:///Users/mohammednurdeen/Desktop/ohmyfood/unlike.png" id="test1" onclick ="change1();"/style="font-size:24px">
+            </p> 
+        
+        <div class="section1" >
+            <p><span>ENTR</span>EES</p>
+            <div class="flex-container">
+            <p  class="fade-in" onclick="myFunction1()">
+             Escargot<br><span1>with southern French spices</span1><i style="font-size:24px" class="fa" id="icon1">&#xf058;</i><i>25&euro;</i>
+                </p>
+            <p class="fade-in" onclick="myFunction2()">
+             Duck Foie Gras<br><span1>with black truffle shavings</span1><i style="font-size:24px" class="fa" id="icon2">&#xf058;</i><i>35&euro;</i> </p>
+               
+            <p class="fade-in"onclick="myFunction3()">
+             Fried egg<br><span1>...</span1><i style="font-size:24px" class="fa" id="icon3">&#xf058;</i><i>20&euro;</i>
+                </p>
+                
+            </div>
+        </div>
+            <div class="section1">
+            <p><span>MAIN</span> DISH</p>
+            <div class="flex-container">
+            <p class="fade-in"onclick="myFunction4()">
+             Herb-Encrusted Steak<br><span1>With Delicatelyseasoned Veg...</span1><i style="font-size:24px" class="fa" id="icon4">&#xf058;</i><i>40&euro;</i>
+                </p>
+            <p class="fade-in"onclick="myFunction5()">
+             Ox Tail Shepeerd's pie<br><span1>with Black truffle and Paesnips</span1><i style="font-size:24px" class="fa" id="icon5">&#xf058;</i><i>35&euro;</i> </p>
+               
+            <p class="fade-in"onclick="myFunction6()">
+             Filet of Sole<br><span1>With citrus dressing</span1><i style="font-size:24px" class="fa" id="icon6">&#xf058;</i><i>44&euro;</i>
+                </p>
+                
+            </div>
+        </div>
+         <div class="section1">
+             <p><span>DESS</span>ERTS</p>
+            <div class="flex-container">
+            <p class="fade-in"onclick="myFunction7()">
+             Paris-Brest<br><span1>Revisted</span1><i style="font-size:24px" class="fa" id="icon7">&#xf058;</i><i>18&euro;</i>
+                </p>
+            <p class="fade-in"onclick="myFunction8()">
+            Chocolate Macaroons<br><span1>With vanilla ice cream</span1><i style="font-size:24px" class="fa" id="icon8">&#xf058;</i><i>22&euro;</i> </p>
+               
+            <p class="fade-in"onclick="myFunction9()">
+             Chocolate Mousse<br><span1>With spices and Black truffe</span1><i style="font-size:24px" class="fa" id="icon9">&#xf058;</i><i>23&euro;</i>
+                </p>
+                
+            </div>
+        </div>
+            <div class="button"><button>Order</button>
+            </div>
+            
+            </div>   
+        <footer>
+            <img src="images/logo/whitelogo.png">
+            <p><i class="material-icons" style="font-size:18px">&#xe56c;</i> Suggest a restaurant</p>
+            <p><i class="fa fa-handshake-o" style="font-size:18px"></i>
+            Become a partner</p>
+            <p>Legal</p>
+            <p>Contact</p>
+        </footer>
+    </body>
+     <script>
+    function change1() 
+         {
+   var img1 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/like.png",  
+       img2 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/unlike.png";
+   var imgElement = document.getElementById('test1');
+if (imgElement.src === img1) {
+ imgElement.src =img2 ;
+} else if (imgElement.src === img2) {
+ imgElement.src =img1 ;
+} else {
+}
+}
+ function myFunction1()
+         {
+  var x = document.getElementById("icon1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction2()
+         {
+  var x = document.getElementById("icon2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction3()
+         {
+  var x = document.getElementById("icon3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction4()
+         {
+  var x = document.getElementById("icon4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction5()
+         {
+  var x = document.getElementById("icon5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction6()
+         {
+  var x = document.getElementById("icon6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction7()
+         {
+  var x = document.getElementById("icon7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction8()
+         {
+  var x = document.getElementById("icon8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction9()
+         {
+  var x = document.getElementById("icon9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+</script>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Bastille-menu
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link rel="stylesheet" href="restaurant1.css">
+        
+    </head>
+    <body>
+        <div class="logo" >
+            <a href="index.html"><i class="fa fa-arrow-left" style="font-size:24px"></i></a>
+        <img src="images/logo/ohmyfood.png" alt="ohmyfood-logo">
+        </div>
+        <div class="pic">
+        </div>
+        <div class="section">
+            <p><span2>Bastille</span2>
+                <img src="file:///Users/mohammednurdeen/Desktop/ohmyfood/unlike.png" id="test1" onclick ="change1();"/style="font-size:24px">
+            </p> 
+        
+        <div class="section1" >
+            <p><span>ENTR</span>EES</p>
+            <div class="flex-container">
+            <p  class="fade-in" onclick="myFunction1()">
+             Citrus Squid Carpaccio<br><span1>with orange zest</span1><i style="font-size:24px" class="fa" id="icon1">&#xf058;</i><i>25&euro;</i>
+                </p>
+            <p class="fade-in" onclick="myFunction2()">
+             Grandmother's Vegetable Soup<br><span1>Carrots,Parsnips,Jerusalem artichole</span1><i style="font-size:24px" class="fa" id="icon2">&#xf058;</i><i>35&euro;</i> </p>
+               
+            <p class="fade-in"onclick="myFunction3()">
+             Onion soup<br><span1>Revisted</span1><i style="font-size:24px" class="fa" id="icon3">&#xf058;</i><i>20&euro;</i>
+                </p>
+                
+            </div>
+        </div>
+            <div class="section1">
+            <p><span>MAIN</span> DISH</p>
+            <div class="flex-container">
+            <p class="fade-in"onclick="myFunction4()">
+             Scallops<br><span1>with mashed parsnip</span1><i style="font-size:24px" class="fa" id="icon4">&#xf058;</i><i>40&euro;</i>
+                </p>
+            <p class="fade-in"onclick="myFunction5()">
+             Margret de canard<br><span1>with mashed potatos</span1><i style="font-size:24px" class="fa" id="icon5">&#xf058;</i><i>35&euro;</i> </p>
+               
+            <p class="fade-in"onclick="myFunction6()">
+             Gane Hen<br><span1>with vegetable gnocchis</span1><i style="font-size:24px" class="fa" id="icon6">&#xf058;</i><i>44&euro;</i>
+                </p>
+                
+            </div>
+        </div>
+         <div class="section1">
+             <p><span>DESS</span>ERTS</p>
+            <div class="flex-container">
+            <p class="fade-in"onclick="myFunction7()">
+             floral Ice Cream<br><span1>with Hazerlnut butter</span1><i style="font-size:24px" class="fa" id="icon7">&#xf058;</i><i>25&euro;</i>
+                </p>
+            <p class="fade-in"onclick="myFunction8()">
+            Chocolate Lava Cake<br><span1>Revisted</span1><i style="font-size:24px" class="fa" id="icon8">&#xf058;</i><i>35&euro;</i> </p>
+               
+            <p class="fade-in"onclick="myFunction9()">
+             Napolean<br><span1>with blueberries and marzipan</span1><i style="font-size:24px" class="fa" id="icon9">&#xf058;</i><i>20&euro;</i>
+                </p>
+                
+            </div>
+        </div>
+            <div class="button"><button>Order</button>
+            </div>
+            
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        <footer>
+            <img src="images/logo/whitelogo.png">
+            <p><i class="material-icons" style="font-size:18px">&#xe56c;</i> Suggest a restaurant</p>
+            <p><i class="fa fa-handshake-o" style="font-size:18px"></i>
+            Become a partner</p>
+            <p>Legal</p>
+            <p>Contact</p>
+        </footer>
+    </body>
+     <script>
+    function change1() 
+         {
+   var img1 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/like.png",  
+       img2 = "file:///Users/mohammednurdeen/Desktop/ohmyfood/unlike.png";
+   var imgElement = document.getElementById('test1');
+if (imgElement.src === img1) {
+ imgElement.src =img2 ;
+} else if (imgElement.src === img2) {
+ imgElement.src =img1 ;
+} else {
+}
+}
+ function myFunction1()
+         {
+  var x = document.getElementById("icon1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction2()
+         {
+  var x = document.getElementById("icon2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction3()
+         {
+  var x = document.getElementById("icon3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction4()
+         {
+  var x = document.getElementById("icon4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction5()
+         {
+  var x = document.getElementById("icon5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction6()
+         {
+  var x = document.getElementById("icon6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction7()
+         {
+  var x = document.getElementById("icon7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction8()
+         {
+  var x = document.getElementById("icon8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+         function myFunction9()
+         {
+  var x = document.getElementById("icon9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  } 
+         }
+</script>
+</html>
